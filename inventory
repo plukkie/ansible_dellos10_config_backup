@@ -1,20 +1,20 @@
 [all:vars]
 ansible_connection=network_cli
-ansible_user=admin
-ansible_password=admin
+ansible_user=
+ansible_password=
 ansible_network_os=dellos10
 
 [leafs]
-leaf1 ansible_host=10.204.11.211
-leaf2 ansible_host=10.204.11.212
-leaf3 ansible_host=10.204.11.213
-leaf4 ansible_host=10.204.11.214
-leaf5 ansible_host=10.204.11.215
-leaf6 ansible_host=10.204.11.216
+leaf1 ansible_host=
+leaf2 ansible_host=
+leaf3 ansible_host=
+leaf4 ansible_host=
+leaf5 ansible_host=
+leaf6 ansible_host=
 
 [spines]
-spine1 ansible_host=10.204.11.155
-spine2 ansible_host=10.204.11.156
+spine1 ansible_host=
+spine2 ansible_host=
 
 [fabric:children]
 leafs
